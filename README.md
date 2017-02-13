@@ -4,7 +4,7 @@ WI4771TU
 This Git repository contains course material, examples and assignments for the
 course "Object Oriented Scientific Programming" (wi4771tu) given in the faculty
 of Electrical Engineering, Applied Mathematics and Computer Sciences at Delft
-University of Technology in the third quarter of the academic year 2015/2016 by
+University of Technology in the third quarter of the academic year 2016/2017 by
 Matthias Moller.
 
 This git repository is maintained at [gitlab wi4771tu].
