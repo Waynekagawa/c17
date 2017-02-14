@@ -12,9 +12,10 @@ This git repository is maintained at [gitlab wi4771tu].
 Lecture schedule
 ----------------
 
-The lectures will be given on **Tuesdays between 10:45 and 12:45** in the indicated
-lecture halls. The **lab sessions** take place on **Fridays between 13:45 and 
-17:45** in the **Computer room 1** in the exam building Drebbelweg (DW-PC1 on the 1st floor).
+-   The lectures will be given on **Tuesdays between 10:45 and 12:45** 
+    in the indicated lecture halls. 
+-   The **lab sessions** take place on **Fridays between 13:45 and 17:45** 
+    in the **Computer room 1** in the exam building Drebbelweg (DW-PC1 on the 1st floor).
 
 [Week 1](slides/week1.pdf) CT-Collegezaal E
 -  Introduction to git and cmake;
