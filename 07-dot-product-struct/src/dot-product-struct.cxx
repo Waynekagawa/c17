@@ -2,7 +2,7 @@
  * \file dot-product-struct.cxx
  *
  * This file is part of the course wi4771tu:
- * Object Oriented Scientific Programming in C++
+ * Object Oriented Scientific Programming with C++
  *
  * \author Matthias Moller
  *

@@ -1,6 +1,6 @@
 # Include this file either in your ~/.bashrc or source it in every session
 # 
-# source ~/wi4771tu.2016.git/tudelft.bashrc
+# source ~/wi4771tu.2017.git/tudelft.bashrc
 #
 
 # Add CMake and GCC to search path
