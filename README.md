@@ -67,6 +67,8 @@ Lecture schedule
 Prerequisites
 -------------
 
+The PCs in the computer rooms are equipped with all necessary software.
+
 [gitlab wi4771tu]: https://gitlab.com/mmoelle1/wi4771tu.2016.git
 
 [01-hello]: 01-hello/
