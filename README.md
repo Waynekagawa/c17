@@ -12,52 +12,52 @@ This git repository is maintained at [gitlab wi4771tu].
 Lecture schedule
 ----------------
 
-1. [Week 1](slides/week1.pdf)
-   -  Introduction to git and cmake;
-   -  Constants, variables, and scope;
-   -  Dynamic memory allocation
-   -  **Examples:**
-      [01-hello],
-      [02-variables-constants],
-      [03-pointers],
-      [04-passing-arguments], and
-      [05-namespaces]
-   - **Homework:**
-      [H01-swap],
-      [H02-arrays], and
-      [H03-reverse-engineering].
+[Week 1](slides/week1.pdf)
+-  Introduction to git and cmake;
+-  Constants, variables, and scope;
+-  Dynamic memory allocation
+-  **Examples:**
+   [01-hello],
+   [02-variables-constants],
+   [03-pointers],
+   [04-passing-arguments], and
+   [05-namespaces]
+- **Homework:**
+   [H01-swap],
+   [H02-arrays], and
+   [H03-reverse-engineering].
 
-2. [Week 2](slides/week2.pdf)
-   - Functions;
-   - Pointers, arrays, and references;
-   - Lvalues, rvalues and their references;
-   - Copy and move semantics (especially in C++11)
+[Week 2](slides/week2.pdf)
+- Functions;
+- Pointers, arrays, and references;
+- Lvalues, rvalues and their references;
+- Copy and move semantics (especially in C++11)
    
-3. [Week 3](slides/week3.pdf)
-   - Introduction to object-oriented programming;
-   - Namespaces, structures and classes
+[Week 3](slides/week3.pdf)
+- Introduction to object-oriented programming;
+- Namespaces, structures and classes
    
-4. [Week 4](slides/week4.pdf)
-   - Introduction to template meta programming;
-   - Parameterized types;
-   - Advanced class hierarchies (abstract classes, virtual functions);
-   - Static vs. dynamic polymorphism
+[Week 4](slides/week4.pdf)
+- Introduction to template meta programming;
+- Parameterized types;
+- Advanced class hierarchies (abstract classes, virtual functions);
+- Static vs. dynamic polymorphism
    
-5. [Week 5](slides/week5.pdf)
-   - Partial class spezialization, traits;
-   - Variadic templates;
-   - Functors (=function objects)
+[Week 5](slides/week5.pdf)
+- Partial class spezialization, traits;
+- Variadic templates;
+- Functors (=function objects)
    
-6. [Week 6](slides/week6.pdf)
-   - Introduction of the standard template library (STL);
-   - Containers (array, vector, list);
-   - Iterators;
-   - I/O streams;
-   - Exception handling
+[Week 6](slides/week6.pdf)
+- Introduction of the standard template library (STL);
+- Containers (array, vector, list);
+- Iterators;
+- I/O streams;
+- Exception handling
    
-7. [Week 7](slides/week7.pdf)
-   - Basic introduction to expression templates
-   - Overview of the Blaze or VexCL library
+[Week 7](slides/week7.pdf)
+- Basic introduction to expression templates
+- Overview of the Blaze or VexCL library
 
 [gitlab wi4771tu]: https://gitlab.com/mmoelle1/wi4771tu.2016.git
 
