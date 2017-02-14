@@ -6,3 +6,6 @@ project (18-complex-conjugate)
 
 # Create an executable named 'complex-conjugate' from the source file 'complex-conjugate.cxx'
 add_executable(complex-conjugate src/complex-conjugate.cxx)
+
+# C++11: Constant expressions
+target_compile_features(complex-conjugate PRIVATE cxx_constexpr)
