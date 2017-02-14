@@ -37,6 +37,23 @@ public:
     }
 };
 
+// Partial class specialisation for double-*
+template<typename I>
+class Demo<double,I>
+{
+public:
+    static void info()
+    {
+        std::cout << "Partially specialised implementation of info() for T=double and I="
+                  << typeid(I).name() << std::endl;
+    }
+    static void test()
+    {
+        std::cout << "Partially specialised implementation of test() for T=double and I="
+                  << typeid(I).name() << std::endl;
+    }
+};
+
 // Full class specialisation for float-long
 template<>
 class Demo<float,long>
@@ -54,24 +71,6 @@ void Demo<double,long>::info()
 {
     std::cout << "Fully specialised function implementation of info() for T=double and I=long" << std::endl;
 }
-
-
-// Partial class specialisation for double-*
-template<typename I>
-class Demo<double,I>
-{
-public:
-    static void info()
-    {
-        std::cout << "Partially specialised implementation of info() for T=double and I="
-                  << typeid(I).name() << std::endl;
-    }
-    static void test()
-    {
-        std::cout << "Partially specialised implementation of test() for T=double and I="
-                  << typeid(I).name() << std::endl;
-    }
-};
 
 // The global main function that is the designated start of the program
 int main(){
