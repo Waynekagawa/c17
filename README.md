@@ -1,13 +1,53 @@
 WI4771TU
 ========
 
-This Git repository contains course material, examples and assignments for the
-course "Object Oriented Scientific Programming" (wi4771tu) given in the faculty
-of Electrical Engineering, Applied Mathematics and Computer Sciences at Delft
-University of Technology in the third quarter of the academic year 2016/2017 by
-Matthias Moller.
+This Git repository contains course material, examples and assignments
+for the course "Object Oriented Scientific Programming with C++"
+(wi4771tu) given in the Faculty of Electrical Engineering, Applied
+Mathematics and Computer Sciences at Delft University of Technology in
+the third quarter of the academic year 2016/2017 by Matthias Moller.
 
 This git repository is maintained at [gitlab wi4771tu].
+
+Lecture schedule
+----------------
+
+1. Lecture 1
+   -  Introduction to git and cmake;
+   -  Constants, variables, and scope;
+   -  Dynamoc memory allocation
+
+2. Lecture 2
+   - Functions;
+   - Pointers, arrays, and references;
+   - Lvalues, rvalues and their references;
+   - Copy and move semantics (especially in C++11)
+   
+3. Lecture 3
+   - Introduction to object-oriented programming;
+   - Namespaces, structures and classes
+   
+4. Lecture 4
+   - Introduction to template meta programming;
+   - Parameterized types;
+   - Advanced class hierarchies (abstract classes, virtual functions);
+   - Static vs. dynamic polymorphism
+   
+5. Lecture 5
+   - Partial class spezialization, traits;
+   - Variadic templates;
+   - Functors (=function objects)
+   
+6. Lecture 6
+   - Introduction of the standard template library (STL);
+   - Containers (array, vector, list);
+   - Iterators;
+   - I/O streams;
+   - Exception handling
+   
+7. Lecture 7
+   - Basic introduction to expression templates
+   - Overview of the Blaze or VexCL library
 
 Homework assignments
 --------------------
