@@ -12,7 +12,11 @@ This git repository is maintained at [gitlab wi4771tu].
 Lecture schedule
 ----------------
 
-[Week 1](slides/week1.pdf)
+The lectures will be given on **Tuesdays between 10:45 and 12:45** in the indicated
+lecture halls. The **lab sessions** take place on **Fridays between 13:45 and 
+17:45** in the **Computer room 1** in the exam building Drebbelweg (DW-PC1 on the 1st floor).
+
+[Week 1](slides/week1.pdf) CT-Collegezaal E
 -  Introduction to git and cmake;
 -  Constants, variables, and scope;
 -  Dynamic memory allocation
@@ -27,37 +31,40 @@ Lecture schedule
    [H02-arrays], and
    [H03-reverse-engineering].
 
-[Week 2](slides/week2.pdf)
+[Week 2](slides/week2.pdf) IO-Bernd Schierbeek
 - Functions;
 - Pointers, arrays, and references;
 - Lvalues, rvalues and their references;
 - Copy and move semantics (especially in C++11)
    
-[Week 3](slides/week3.pdf)
+[Week 3](slides/week3.pdf) CT-Collegezaal B
 - Introduction to object-oriented programming;
 - Namespaces, structures and classes
    
-[Week 4](slides/week4.pdf)
+[Week 4](slides/week4.pdf) CT-Collegezaal C
 - Introduction to template meta programming;
 - Parameterized types;
 - Advanced class hierarchies (abstract classes, virtual functions);
 - Static vs. dynamic polymorphism
    
-[Week 5](slides/week5.pdf)
+[Week 5](slides/week5.pdf) CT-Collegezaal E
 - Partial class spezialization, traits;
 - Variadic templates;
 - Functors (=function objects)
    
-[Week 6](slides/week6.pdf)
+[Week 6](slides/week6.pdf) CT-Collegezaal C
 - Introduction of the standard template library (STL);
 - Containers (array, vector, list);
 - Iterators;
 - I/O streams;
 - Exception handling
    
-[Week 7](slides/week7.pdf)
+[Week 7](slides/week7.pdf) CT-Collegezaal F
 - Basic introduction to expression templates
 - Overview of the Blaze or VexCL library
+
+Prerequisites
+-------------
 
 [gitlab wi4771tu]: https://gitlab.com/mmoelle1/wi4771tu.2016.git
 
