@@ -16,12 +16,16 @@ Lecture schedule
    -  Introduction to git and cmake;
    -  Constants, variables, and scope;
    -  Dynamic memory allocation
-   -  *Examples:*
+   -  **Examples:**
       [01-hello],
       [02-variables-constants],
       [03-pointers],
-      [04-passing-arguments],
+      [04-passing-arguments], and
       [05-namespaces]
+   - **Homework:**
+      [H01-swap],
+      [H02-arrays], and
+      [H03-reverse-engineering].
 
 2. [Week 2](slides/week2.pdf)
    - Functions;
@@ -54,24 +58,6 @@ Lecture schedule
 7. [Week 7](slides/week7.pdf)
    - Basic introduction to expression templates
    - Overview of the Blaze or VexCL library
-
-Homework assignments
---------------------
-
-The list of homework assignments per session:
-
-1.  [H01-swap], [H02-arrays] and [H03-reverse-engineering].
-
-2.  [H04-points-triangles].
-
-3.  [H05-copy-move] and [H06-derivatives].
-
-4.  [H07-templates].
-
-5.  [H08-unit-converter] and [H09-symbolic-differentiation].
-
-6.  [H10-add-vectors].
-
 
 [gitlab wi4771tu]: https://gitlab.com/mmoelle1/wi4771tu.2016.git
 
