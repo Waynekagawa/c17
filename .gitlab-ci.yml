@@ -19,7 +19,7 @@ wi4771-gcc5:
     - CC=gcc-5 CXX=g++-5 cmake ..
     - make
     
-  wi4771-gcc6:
+wi4771-gcc6:
   stage: build
   image: registry.gitlab.com/mmoelle1/docker:gcc6
   script: 
