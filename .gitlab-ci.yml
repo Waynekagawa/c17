@@ -12,7 +12,7 @@ wi4771-clang:
 
 wi4771-gcc4.9:
   stage: build
-  image: registry.gitlab.com/mmoelle1/docker:gcc5
+  image: registry.gitlab.com/mmoelle1/docker:gcc49
   script: 
     - mkdir -p build 
     - cd build 
@@ -36,3 +36,4 @@ wi4771-gcc6:
     - cd build 
     - CC=gcc-6 CXX=g++-6 cmake ..
     - make
+

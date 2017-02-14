@@ -40,5 +40,10 @@ add_subdirectory(22-stack-queue)
 add_subdirectory(H01-swap)
 add_subdirectory(H02-arrays)
 add_subdirectory(H04-points-triangles)
+add_subdirectory(H05-copy-move)
+add_subdirectory(H06-derivatives)
+add_subdirectory(H07-templates)
+add_subdirectory(H08-unit-converter)
+add_subdirectory(H09-symbolic-differentiation)
+add_subdirectory(H10-add-vectors)
 
-# Assignment
