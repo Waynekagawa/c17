@@ -12,42 +12,42 @@ This git repository is maintained at [gitlab wi4771tu].
 Lecture schedule
 ----------------
 
-1. Lecture 1
-   -  Introduction to git and cmake;
-   -  Constants, variables, and scope;
-   -  Dynamoc memory allocation
+1.   [Week 1](slides/week1.pdf)
+     -   Introduction to git and cmake;
+     -   Constants, variables, and scope;
+     -   Dynamoc memory allocation
 
-2. Lecture 2
-   - Functions;
-   - Pointers, arrays, and references;
-   - Lvalues, rvalues and their references;
-   - Copy and move semantics (especially in C++11)
+2.   [Week 2](slides/week2.pdf)
+     -   Functions;
+     -   Pointers, arrays, and references;
+     -   Lvalues, rvalues and their references;
+     -   Copy and move semantics (especially in C++11)
    
-3. Lecture 3
-   - Introduction to object-oriented programming;
-   - Namespaces, structures and classes
+3.   [Week 3](slides/week3.pdf)
+     -   Introduction to object-oriented programming;
+     -   Namespaces, structures and classes
    
-4. Lecture 4
-   - Introduction to template meta programming;
-   - Parameterized types;
-   - Advanced class hierarchies (abstract classes, virtual functions);
-   - Static vs. dynamic polymorphism
+4.   [Week 4](slides/week4.pdf)
+     -   Introduction to template meta programming;
+     -   Parameterized types;
+     -   Advanced class hierarchies (abstract classes, virtual functions);
+     -   Static vs. dynamic polymorphism
    
-5. Lecture 5
-   - Partial class spezialization, traits;
-   - Variadic templates;
-   - Functors (=function objects)
+5.   [Week 5](slides/week5.pdf)
+     -   Partial class spezialization, traits;
+     -   Variadic templates;
+     -   Functors (=function objects)
    
-6. Lecture 6
-   - Introduction of the standard template library (STL);
-   - Containers (array, vector, list);
-   - Iterators;
-   - I/O streams;
-   - Exception handling
+6.   [Week 6](slides/week6.pdf)
+     -   Introduction of the standard template library (STL);
+     -   Containers (array, vector, list);
+     -   Iterators;
+     -   I/O streams;
+     -   Exception handling
    
-7. Lecture 7
-   - Basic introduction to expression templates
-   - Overview of the Blaze or VexCL library
+7.   [Week 7](slides/week7.pdf)
+     -   Basic introduction to expression templates
+     -   Overview of the Blaze or VexCL library
 
 Homework assignments
 --------------------
