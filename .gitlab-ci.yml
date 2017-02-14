@@ -1,0 +1,29 @@
+stages:
+  - build
+
+wi4771-clang:
+  stage: build
+  image: registry.gitlab.com/mmoelle1/docker:clang
+  script: 
+    - mkdir -p build 
+    - cd build 
+    - CC=clang CXX=clang++ cmake ..
+    - make
+    
+wi4771-gcc5:
+  stage: build
+  image: registry.gitlab.com/mmoelle1/docker:gcc5
+  script: 
+    - mkdir -p build 
+    - cd build 
+    - CC=gcc-5 CXX=g++-5 cmake ..
+    - make
+    
+  wi4771-gcc6:
+  stage: build
+  image: registry.gitlab.com/mmoelle1/docker:gcc6
+  script: 
+    - mkdir -p build 
+    - cd build 
+    - CC=gcc-6 CXX=g++-6 cmake ..
+    - make
