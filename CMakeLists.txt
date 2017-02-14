@@ -1,13 +1,13 @@
 # Force CMake version 3.1 or above
 cmake_minimum_required (VERSION 3.1)
 
+# This project has the name: wi4771tu.2017
+project (wi4771tu.2017)
+
 # Prevent in-source builds 
 if("${PROJECT_SOURCE_DIR}" STREQUAL "${PROJECT_BINARY_DIR}")
   message(FATAL_ERROR "In-source builds are not allowed.")
 endif()
-
-# This project has the name: wi4771tu.2017
-project (wi4771tu.2017)
 
 # Output message
 message("Build all build targets of the course wi4771tu from 2017")
