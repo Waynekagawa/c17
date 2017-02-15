@@ -1,6 +1,4 @@
-WI4771TU
-========
-
+# WI4771TU
 This Git repository contains course material, examples and assignments
 for the course "Object Oriented Scientific Programming with C++"
 (wi4771tu) given in the Faculty of Electrical Engineering, Applied
@@ -9,9 +7,7 @@ the third quarter of the academic year 2016/2017 by Matthias Moller.
 
 This git repository is maintained at [gitlab wi4771tu].
 
-Lecture schedule
-----------------
-
+## Lecture schedule
 -   The lectures will be given on **Tuesdays between 10:45 and 12:45** 
     in the indicated lecture halls. 
 -   The **lab sessions** take place on **Fridays between 13:45 and 17:45** 
@@ -64,40 +60,79 @@ Lecture schedule
 - Basic introduction to expression templates
 - Overview of the Blaze or VexCL library
 
-Prerequisites
--------------
-
+## Prerequisites
 The PCs in the computer room DW-PC1 running under SUSE Linux Enterprise Desktop 
-12 SP1 are equipped with all software necessary for this course
+12 SP1 are equipped with all software necessary for this course. If you prefer 
+using your private laptop please make sure that you have installed all necessary
+software. **Please note that we cannot give any kind of support for installing
+software on private laptops. In this case you are on your own.**
 
-Git
----
+### Git
 The version control system Git is available by the `git` command. If you work on
 your own PC please install Git as explained on the website https://git-scm.com.
 
-CMake
------
+### CMake
 The build system CMake is available by the `cmake` command. If you work on
 your own PC please install CMake (version 3.1 or better) as explained on the
 website https://cmake.org.
 
-C++ compiler
-------------
+### C++ compiler
 The GNU C++ Compiler 5.1 is available by the `g++` command. If you work on
 your own PC please install a C++ compiler that has full C++11 support. Compilers
 that are known to work are GNU C++ 5.x or 6.x (https://gcc.gnu.org), Xcode on 
 macOS (available via the AppStore), and Microsoft Visual Studio Community Edition
 (available for free via https://www.visualstudio.com/downloads/).
 
-Please note that we cannot give support for installing software on private 
-laptops. If you prefer using your private laptop over using the PCs in DW-PC1
-you are on your own.
 
+## Getting started
 
-Getting started
----------------
+1. Fetch the repository
+   ```
+   git clone https://gitlab.com/mmoelle1/wi4771tu.2017
+   ```
+   or use a Git GUI under Windows to obtain the lecture slides, example programs
+   and homework assignments.
+   
+2. On the PCs in DW-PC1 load the necessary compilers by running
+   ```
+   source $HOME/wi4771tu.2017/tudelft.bashrc
+   ```
+   In order to execute this command each time you login to the PC run
+   ```
+   echo "source $HOME/wi4771tu.2017/tudelft.bashrc" >> .bashrc
+   ```
+   
+3. Create a `build` directory and run CMake
+   ```
+   cd wi4771tu.2017
+   mkdir build
+   cd build
+   cmake ..
+   ```
+   This will generate all required Makefiles needed to compile the examples.
+   
+   If you work on your private laptop and have different compilers installed it
+   might be necessary to specify the one you intend to use explicitly by running
+   ```
+   CC=gcc-5 CXX=g++-5 cmake ..
+   ```
+   
+   On Windows, the CMake GUI will detect installed C++ compilers automatically 
+   and suggest possible targets. The easiest way is to generate a Visual Studio
+   Project which can be directly loaded into the Microsoft IDE.
+   
+   On macOS, CMake can generate project files that can be loaded into Xcode
+   ```
+   cmake -G Xcode ..
+   ```
+   
+4. Compile the examples
+   ```
+   make
+   ```
 
-
+   If you work on Windows with Microsoft Visual Studio or macOS with Xcode open
+   the project file and compile the examples from within the IDE.
 
 
 [gitlab wi4771tu]: https://gitlab.com/mmoelle1/wi4771tu.2017.git
