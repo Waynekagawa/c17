@@ -110,18 +110,15 @@ macOS (available via the AppStore), and Microsoft Visual Studio Community Editio
    cmake ..
    ```
    This will generate all required Makefiles needed to compile the examples.
-   
    If you work on your private laptop and have different compilers installed it
    might be necessary to specify the one you intend to use explicitly by running
    ```
    CC=gcc-5 CXX=g++-5 cmake ..
    ```
-   
-   On Windows, the CMake GUI will detect installed C++ compilers automatically 
+   On **Windows**, the CMake GUI will detect installed C++ compilers automatically 
    and suggest possible targets. The easiest way is to generate a Visual Studio
    Project which can be directly loaded into the Microsoft IDE.
-   
-   On macOS, CMake can generate project files that can be loaded into Xcode
+   On **macOS**, CMake can generate project files that can be loaded into Xcode
    ```
    cmake -G Xcode ..
    ```
@@ -130,9 +127,8 @@ macOS (available via the AppStore), and Microsoft Visual Studio Community Editio
    ```
    make
    ```
-
-   If you work on Windows with Microsoft Visual Studio or macOS with Xcode open
-   the project file and compile the examples from within the IDE.
+   If you work on **Windows** with Microsoft Visual Studio or **macOS** with
+   Xcode open the project file and compile the examples from within the IDE.
 
 
 [gitlab wi4771tu]: https://gitlab.com/mmoelle1/wi4771tu.2017.git
