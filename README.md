@@ -67,9 +67,40 @@ Lecture schedule
 Prerequisites
 -------------
 
-The PCs in the computer rooms are equipped with all necessary software.
+The PCs in the computer room DW-PC1 running under SUSE Linux Enterprise Desktop 
+12 SP1 are equipped with all software necessary for this course
 
-[gitlab wi4771tu]: https://gitlab.com/mmoelle1/wi4771tu.2016.git
+Git
+---
+The version control system Git is available by the `git` command. If you work on
+your own PC please install Git as explained on the website https://git-scm.com.
+
+CMake
+-----
+The build system CMake is available by the `cmake` command. If you work on
+your own PC please install CMake (version 3.1 or better) as explained on the
+website https://cmake.org.
+
+C++ compiler
+------------
+The GNU C++ Compiler 5.1 is available by the `g++` command. If you work on
+your own PC please install a C++ compiler that has full C++11 support. Compilers
+that are known to work are GNU C++ 5.x or 6.x (https://gcc.gnu.org), Xcode on 
+macOS (available via the AppStore), and Microsoft Visual Studio Community Edition
+(available for free via https://www.visualstudio.com/downloads/).
+
+Please note that we cannot give support for installing software on private 
+laptops. If you prefer using your private laptop over using the PCs in DW-PC1
+you are on your own.
+
+
+Getting started
+---------------
+
+
+
+
+[gitlab wi4771tu]: https://gitlab.com/mmoelle1/wi4771tu.2017.git
 
 [01-hello]: 01-hello/
 [02-variables-constants]: 02-variables-constants/
