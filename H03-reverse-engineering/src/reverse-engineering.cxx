@@ -6,11 +6,6 @@
  *
  */
 
-// Support for precompiled header files (only under MS Visual Studio)
-#ifdef _MSC_VER
-#include "stdafx.h"
-#endif
-
 // Include header file for standard input/output stream library
 #include <iostream>
 
