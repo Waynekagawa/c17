@@ -8,3 +8,6 @@ project (H10-add-vectors)
 add_executable(add-vectors src/add-vectors.cxx)
 target_compile_features(add-vectors PRIVATE
     cxx_auto_type cxx_variadic_templates)
+
+# Create an additional target for assignment submission
+add_assignment(add-vectors src/add-vectors.cxx)

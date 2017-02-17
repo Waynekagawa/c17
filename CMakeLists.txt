@@ -12,6 +12,26 @@ endif()
 # Output message
 message("Build all build targets of the course wi4771tu from 2017")
 
+# Macro for generating assignment submittions
+macro(add_assignment target src)
+  add_custom_target(
+    "${target}_assignment"
+    COMMAND ${CMAKE_COMMAND} -E copy "${CMAKE_CURRENT_SOURCE_DIR}/${src}" "${target}.log"
+    COMMAND ${CMAKE_COMMAND} -E echo "=== Start Environment " >> "${target}.log"
+    COMMAND ${CMAKE_COMMAND} -E echo "PROJECT_NAME = ${PROJECT_NAME}" >> "${target}.log"
+    COMMAND ${CMAKE_COMMAND} -E echo "CMAKE_SYSTEM = ${CMAKE_SYSTEM}" >> "${target}.log"
+    COMMAND ${CMAKE_COMMAND} -E echo "CMAKE_VERSION = ${CMAKE_VERSION}" >> "${target}.log"
+    COMMAND ${CMAKE_COMMAND} -E echo "CMAKE_CXX_COMPILER_ID = ${CMAKE_CXX_COMPILER_ID}" >> "${target}.log"
+    COMMAND ${CMAKE_COMMAND} -E echo "CMAKE_CXX_COMPILER_VERSION = ${CMAKE_CXX_COMPILER_VERSION}" >> "${target}.log"
+    COMMAND ${CMAKE_COMMAND} -E echo "=== End Environment " >> "${target}.log"
+    COMMAND ${CMAKE_COMMAND} -E echo "=== Start of output from execution of binary ${target}" >> "${target}.log"
+    COMMAND ${target} >> "${target}.log"
+    COMMAND ${CMAKE_COMMAND} -E echo "=== End of output from execution of binary ${target}" >> "${target}.log"
+    WORKING_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}
+    DEPENDS ${target}
+    )
+endmacro()
+
 # Examples
 add_subdirectory(01-hello)
 add_subdirectory(02-variables-constants)

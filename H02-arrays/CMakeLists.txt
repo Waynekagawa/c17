@@ -6,3 +6,6 @@ project (H02-arrays)
 
 # Create an executable named 'arrays' from the source file 'arrays.cxx'
 add_executable(arrays src/arrays.cxx)
+
+# Create an additional target for assignment submission
+add_assignment(arrays src/arrays.cxx)

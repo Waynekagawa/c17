@@ -6,3 +6,6 @@ project (H01-swap)
 
 # Create an executable named 'swap' from the source file 'swap.cxx'
 add_executable(swap src/swap.cxx)
+
+# Create an additional target for assignment submission
+add_assignment(swap src/swap.cxx)
