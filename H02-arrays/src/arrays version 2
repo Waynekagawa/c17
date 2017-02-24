@@ -1,0 +1,50 @@
+#include <iostream>
+//#include <string>
+ 
+int n1; // declare global variables that indicate size of arrays to be added.
+int n2;
+int Add_Array(int*a, int*b){ //use pointers to access the arrays. a[0] would indicate the first element of array which a points to.
+    for (auto i=0; i<n1; i++) 
+        a[i] = a[i] + b[i]; //update the first array to give the ouput which is the sum of the two arrays.
+   
+	return 0;
+}
+
+int main()
+// create input arrays
+{std::cout << "Enter size of first array: ";
+   std::cin >> n1;  //input array size.
+  int *array1 = new int[n1];  //declare input array 1.
+  std::cout << "Enter members of array 1. " <<std::endl;
+  for (auto i=0; i<n1; i++)  //initialize input array 1.
+      std::cin >> array1[i];
+  
+  std::cout << "Enter size of second array: ";
+   std::cin >> n2;
+  int *array2 = new int[n2];
+  std::cout << "Enter members of array 2. " <<std::endl;
+  for (auto i=0; i<n2; i++)
+      std::cin >> array2[i];
+
+// Use IF condtion to check the size of arrays and then use Add_Array to get an updated array1 which contains the terms of the operation array1 + array2. 
+      
+if (n1==n2){
+
+	 Add_Array(array1,array2); 
+
+        std::cout<<"The output array is "<<std::endl;
+
+        for (auto i=0; i<n1; i++)//create loop to stream the array output.
+         std::cout<< array1[i]<<std::endl;
+        
+delete[] array2; //delete array2 to free up space.
+}
+
+ else 
+ {std::cout<< "Sorry! Array sizes have to be equal for them to be added."<<std::endl; delete[] array1; delete[] array2;}
+
+
+
+  return 0;
+   
+}
