@@ -11,7 +11,8 @@
 class Point
 {
 public:
-    // constructors
+    Point(); // constructors
+    Point(double a,double b);{x=a;y=b;}
     // operators
     // methods
 
