@@ -26,12 +26,26 @@ public:
        c.y += this->y - other.y;
        return c;} 
 Point operator+=(const Point& other) {
-       Point c;//defining a third point which is the result of the addition of the other two.
+      //don't need to define a third point as we can store the result in the object calling the operator.
        this->x = this->x + other.x;//runs without this-> as well. Need to know why.
        this->y = this->y + other.y;
-       return c;} 
+       return *this;} 
 	   //Instead of defining c, just start with replacing this->x and this->y because I have removed the const in there to facilitate the change in variable b. Return this* instead as this is a pointer.
+Point operator-=(const Point& other) {
+      //don't need to define a third point as we can store the result in the object calling the operator.
+       this->x = this->x - other.x;//runs without this-> as well. Need to know why.
+       this->y = this->y - other.y;
+       return *this;}    
+    
     // methods
+double distance(){double d=0;d = sqrt(pow (this->x,2) + pow(this->y,2));return d;}
+double distance(Point other){double d=0;d = sqrt(pow (this->x - other.x,2) + pow(this->y - other.y,2));return d;}
+Point rotate(double angle_D){ //angle in degrees.
+ double angle = angle_D*M_PI/180;
+ Point d;
+ d.x += this->x*cos(angle) - this->y*sin(angle);
+ d.y += this->x*sin(angle) + this->y*cos(angle);
+ return d;}
     
  double x;double y;
     
@@ -85,13 +99,13 @@ int main()
     Point c;// = {3, 4};
     Point d;
     b += a;    // result: b.x = 4, b.y = 6
-    //c = b + a; // result: c.x = 4, c.y = 6
+    c = b + a; // result: c.x = 5, c.y = 8
     //d = b - a;
     //Triangle t;
 
     // set point `p` to (1, 2)
-    p.x = 211;
-    p.y = 2;
+    p.x = 1;
+    p.y = 1;
 /**
     // set triangle `t` to (1, 2), (3, 4), (5, 6)
     t.a.x = 1;
@@ -103,8 +117,11 @@ int main()
 */
     // print point `p` and triangle `t`
     std::cout<<p<<std::endl;
-    //std::cout<<c<<std::endl;
-    std::cout<<b<<std::endl;
+    std::cout<<c<<std::endl;
+    std::cout<<a.distance()<<std::endl;
+    std::cout<<a.distance(p)<<std::endl;
+    std::cout<<p.rotate(45)<<std::endl;
+    
  //   cout << t << endl;
 }
 
