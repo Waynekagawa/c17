@@ -11,8 +11,14 @@
 class Point
 {
 public:
-    // constructors
-    // operators
+   Point(); //the default constructor
+   Point(double a, double b);{x=a;y=b} //Declaring a constructor of doubvles and initialising it to take the values of x and y
+    //not sure if this should be written here or outside in the main function. like Point.x = a or something. 
+   Point operator+(const Point& Other) const{
+       double cx = 0; double cy = 0;
+       cx += x + other.x;
+       cy += y + other.y;
+       return Point(cx,cy);// operators
     // methods
 
     double x;
