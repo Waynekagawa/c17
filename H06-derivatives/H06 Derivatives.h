@@ -47,7 +47,8 @@ auto myfunc2 = [](double x) { return 3*x; };
 
 int main(){
 	//Using CentralDifference.
-	CentralDifference CD;
+	//Derivative r(1e-2);
+	CentralDifference CD(1e-2);
 	std::cout<<"Central Difference Derivative:  "<< CD.differentiate(myfunc1,1)<<std::endl;
 	std::cout<<"Central Difference Derivative:  "<< CD.differentiate(myfunc2,1)<<std::endl;
 	
